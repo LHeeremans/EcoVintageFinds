@@ -245,8 +245,19 @@ img {
 /*https://www.youtube.com/shorts/eqUu3bhhRvk*/
 
 @keyframes shake {
-    10% { transform: scale(1.05) rotate(5deg); }
-    20% { transform: scale(1.05) rotate(-5deg); }
-    30% { transform: scale(1.05) rotate(5deg); }
-    40% { transform: none; }
+    10% {
+        transform: scale(1.05) rotate(5deg);
+    }
+
+    20% {
+        transform: scale(1.05) rotate(-5deg);
+    }
+
+    30% {
+        transform: scale(1.05) rotate(5deg);
+    }
+
+    40% {
+        transform: none;
+    }
 }
